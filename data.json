@@ -1,0 +1,528 @@
+{
+    "homePage": [
+        {
+            "title": "Support",
+            "backgroundImage": "https://i.pinimg.com/564x/a6/1b/27/a61b279c476a65997a07f105f7ec3eec.jpg"
+        },
+        {
+            "title": "Encourage",
+            "backgroundImage": "https://avatars.mds.yandex.net/get-entity_search/118532/1132030522/S600xU_2x"
+        },
+        {
+            "title": "Ambition",
+            "backgroundImage": "https://framerusercontent.com/images/2OhYq6shmCU46GwpiieglfGJVc.png?scale-down-to=512"
+        },
+        {
+            "title": "Purpose",
+            "backgroundImage": "https://avatars.mds.yandex.net/get-entity_search/42097/1153442244/S600xU_2x"
+        },
+        {
+            "title": "Progress",
+            "backgroundImage": "https://avatars.mds.yandex.net/get-entity_search/1956054/930707247/S600xU_2x"
+        },
+        {
+            "title": "Discipline",
+            "backgroundImage": "https://avatars.mds.yandex.net/get-entity_search/2363292/989154249/S600xU_2x"
+        }
+    ],
+    "webDevelopment": {
+        "frontEnd": [
+            {
+                "name": "Chris Coyier",
+                "avatar": "https://ga-core.s3.amazonaws.com/production/uploads/instructor/image/15212/chris-1.jpg",
+                "description": "Founder of CSS-Tricks and co-founder of CodePen. Known for practical CSS tutorials and front-end insights.",
+                "tasks": [
+                    "Recreate a responsive layout using only CSS Grid and Flexbox from a real news site.",
+                    "Build a custom CodePen-like HTML/CSS/JS editor in the browser.",
+                    "Implement a dark/light mode toggle with localStorage state persistence.",
+                    "Design and code a responsive multi-level navigation menu using only CSS.",
+                    "Create a fluid typography system using clamp() and rem units.",
+                    "Build a landing page with embedded animations using CSS keyframes and transitions."
+                ]
+            },
+            {
+                "name": "Una Kravets",
+                "avatar": "https://avatars.mds.yandex.net/i?id=e0d30c35ae1165f77b2ea70dd07941dd_l-8182507-images-thumbs&n=13",
+                "description": "Developer advocate at Google Chrome. Expert in CSS, UI design systems, and performance.",
+                "tasks": [
+                    "Create a design system using CSS variables and a11y standards.",
+                    "Build a reusable, accessible component library (dropdowns, modals, tabs).",
+                    "Convert a Figma design to pixel-perfect HTML/CSS with performance optimizations.",
+                    "Use CSS Houdini to create a custom paint worklet for a pattern background.",
+                    "Implement lazy loading and asset optimization for a large UI project.",
+                    "Set up and document a performance budget using Lighthouse and DevTools."
+                ]
+            },
+            {
+                "name": "Lea Verou",
+                "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nDKVmU5_wayz3BYNuVUdmn0t0ZwkV1z1G8Uutx6JC_CNkj=s900-c-k-c0x00ffffff-no-rj",
+                "description": "Co-creator of reveal.js and Slides.com. Known for stunning interactive UI experiments.",
+                "tasks": [
+                    "Build a web-based interactive presentation system using reveal.js.",
+                    "Create a color contrast checker using JavaScript and WCAG rules.",
+                    "Develop an advanced form with real-time validation using Regex and HTML5 APIs.",
+                    "Animate SVG paths based on user input using CSS and JS.",
+                    "Build an interactive color picker from scratch using native JS and CSS.",
+                    "Use CSS custom properties to create a theme switcher for a UI kit."
+                ]
+            }
+        ],
+        "backEnd": [
+            {
+                "name": "DHH (David Heinemeier Hansson)",
+                "avatar": "https://i.ytimg.com/vi/5MSLK39TBkw/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgTig9MA8=&rs=AOn4CLBWsfxgJVmJVISF5uXiyVReiO5Qaw",
+                "description": "Creator of Ruby on Rails. Co-founder of Basecamp. Known for bold views on software and startups.",
+                "tasks": [
+                    "Build a blog platform using Ruby on Rails with authentication and admin panel.",
+                    "Create a background job system with Sidekiq to handle emails and reports.",
+                    "Implement a RESTful API with versioning and token-based authentication.",
+                    "Add caching (page and fragment) to a Rails app to boost performance.",
+                    "Use Action Mailer to build a fully templated notification system.",
+                    "Integrate Stripe for subscription billing in a SaaS Rails project."
+                ]
+            },
+            {
+                "name": "Matz (Yukihiro Matsumoto)",
+                "avatar": "https://avatars.mds.yandex.net/i?id=13c1a9043febcb09c9bb3f8cf363633c_l-5223996-images-thumbs&n=13",
+                "description": "Creator of the Ruby programming language. Respected for his philosophy on developer happiness.",
+                "tasks": [
+                    "Create a gem that parses and transforms markdown to HTML.",
+                    "Write a CLI tool in pure Ruby to manage to-do tasks with file storage.",
+                    "Build a minimalistic MVC web framework in Ruby from scratch.",
+                    "Use metaprogramming to dynamically generate model methods.",
+                    "Create a plugin system using Ruby modules and mixins.",
+                    "Profile and optimize a Ruby app using `benchmark` and `memory_profiler`."
+                ]
+            },
+            {
+                "name": "Mitchell Hashimoto",
+                "avatar": "https://avatars.mds.yandex.net/i?id=2641483aa836b9524ab1d404b7c100c9_l-10638416-images-thumbs&n=13",
+                "description": "Founder of HashiCorp. Creator of Vagrant and Terraform. Expert in backend infrastructure tools.",
+                "tasks": [
+                    "Write a Vagrantfile to provision a reproducible development environment.",
+                    "Use Terraform to provision a scalable AWS EC2 + S3 stack.",
+                    "Implement a Consul-based service discovery system in a microservices project.",
+                    "Create a plugin for Vagrant to support a custom VM provider.",
+                    "Set up a secure Vault-based secrets management service in a backend project.",
+                    "Automate deployment workflows using Terraform Cloud or GitHub Actions."
+                ]
+            }
+        ],
+        "fullStack": [
+            {
+                "name": "Evan You",
+                "avatar": "https://avatars.mds.yandex.net/i?id=c9f9a408b2f49640ef84a5367ff1b842_l-5710342-images-thumbs&n=13",
+                "description": "Creator of Vue.js. Former Google engineer. Full-stack capabilities with focus on simplicity and performance.",
+                "tasks": [
+                    "Build a full-stack Todo app with Vue 3, Pinia, and Firebase.",
+                    "Use Vue Router and Composition API to handle dynamic page routing.",
+                    "Connect a Node.js backend to a Vue frontend using REST APIs.",
+                    "Implement SSR (Server-Side Rendering) in a Nuxt.js app.",
+                    "Create a plugin system for a Vue-based admin panel.",
+                    "Deploy a Vue + Express full-stack project using Vercel or Netlify + Render."
+                ]
+            },
+            {
+                "name": "Guillermo Rauch",
+                "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Guillermo_Rauch_photo.jpg/1200px-Guillermo_Rauch_photo.jpg",
+                "description": "CEO of Vercel and creator of Next.js. Advocate for full-stack serverless web development.",
+                "tasks": [
+                    "Build a full-stack blog with Next.js using Static Site Generation (SSG).",
+                    "Implement authentication using NextAuth.js and JWT.",
+                    "Use serverless functions for dynamic routes (e.g., comments, orders).",
+                    "Deploy an e-commerce app with Next.js + Stripe integration.",
+                    "Integrate a CMS like Sanity or Contentful with ISR in Next.js.",
+                    "Add middleware to a Next.js project for route-based access control."
+                ]
+            },
+            {
+                "name": "Ryan Dahl",
+                "avatar": "https://avatars.mds.yandex.net/i?id=2a0000017a1a390209d1368eb2d9cfff3665-4824877-images-thumbs&n=13",
+                "description": "Creator of Node.js and Deno. A pioneer in full-stack JavaScript runtimes and tooling.",
+                "tasks": [
+                    "Build a REST API with Deno and Oak framework.",
+                    "Create a simple static site generator using Deno.",
+                    "Implement role-based access control in a Node.js + Express app.",
+                    "Migrate a Node.js project to Deno with improved permissions and security.",
+                    "Use WebSockets in Node.js to create a real-time chat app.",
+                    "Build a CLI app using Deno's built-in permission system and bundler."
+                ]
+            }
+        ]
+    },
+    "mobileDevelopment": {
+        "crossPlatform": [
+            {
+                "name": "Russell Keith-Magee",
+                "avatar": "https://i.ytimg.com/vi/mLao2cfhykU/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgYyhXMA8=&amp;rs=AOn4CLBbl48pIn3A2tZC6uy-HN2VKS3FCA",
+                "description": "Creator of BeeWare, enabling Python developers to build native apps across platforms.",
+                "tasks": [
+                    "Build a native Android and iOS app using BeeWare's Toga library.",
+                    "Create a cross-platform desktop and mobile app with a shared Python codebase.",
+                    "Implement platform-specific UI adaptations using BeeWare's APIs.",
+                    "Develop a plugin system for extending app functionalities.",
+                    "Integrate SQLite for local data storage within the app.",
+                    "Deploy the app to both Google Play Store and Apple App Store."
+                ]
+            },
+            {
+                "name": "Kivy Team",
+                "avatar": "https://files.codingninjas.in/article_images/introduction-to-kivy-0-1651812373.webp",
+                "description": "Developers of Kivy, an open-source Python framework for developing multitouch applications.",
+                "tasks": [
+                    "Design a responsive UI for various screen sizes using Kivy's layout system.",
+                    "Implement gesture-based navigation within the app.",
+                    "Create custom widgets to enhance user interaction.",
+                    "Integrate OpenGL graphics for dynamic visualizations.",
+                    "Develop a real-time chat application using Kivy and WebSocket.",
+                    "Package the app for Android using Buildozer."
+                ]
+            },
+            {
+                "name": "Mike Matas",
+                "avatar": "https://i.ytimg.com/vi/jqydI0byMDY/maxresdefault.jpg",
+                "description": "Co-founder of Push Pop Press and former designer at Apple and Facebook. Known for his work on interactive digital books and user interfaces.",
+                "tasks": [
+                    "Design a responsive UI for various screen sizes using Kivy's layout system.",
+                    "Implement gesture-based navigation within the app.",
+                    "Create custom widgets to enhance user interaction.",
+                    "Integrate OpenGL graphics for dynamic visualizations.",
+                    "Develop a real-time chat application using Kivy and WebSocket.",
+                    "Package the app for Android using Buildozer."
+                ]
+            }
+        ],
+        "native": [
+            {
+                "name": "Dong Nguyen",
+                "avatar": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1oFaVh.img",
+                "description": "Vietnamese developer behind the viral game 'Flappy Bird,' which became a cultural phenomenon in mobile gaming.",
+                "tasks": [
+                    "Build a native iOS app using Swift and SwiftUI.",
+                    "Implement Core Data for local data persistence.",
+                    "Utilize Combine framework for reactive programming.",
+                    "Integrate Apple's ARKit for augmented reality features.",
+                    "Implement in-app purchases and subscriptions.",
+                    "Deploy the app using TestFlight for beta testing."
+                ]
+            },
+            {
+                "name": "Jake Wharton",
+                "avatar": "https://avatars.mds.yandex.net/i?id=5f7d2d663cb9a343800e12befadf35da_l-3111739-images-thumbs&n=13",
+                "description": "Android developer and contributor to numerous open-source Android libraries.",
+                "tasks": [
+                    "Develop a native Android app using Kotlin and Jetpack Compose.",
+                    "Implement Room database for local storage.",
+                    "Use Retrofit for networking and API calls.",
+                    "Integrate Firebase for authentication and analytics.",
+                    "Implement background tasks using WorkManager.",
+                    "Optimize app performance and memory usage."
+                ]
+            },
+            {
+                "name": "Sean Rad",
+                "avatar": "https://avatars.mds.yandex.net/i?id=1f3c757bd3c18d601a1e9196a66940ac_l-4081049-images-thumbs&n=13",
+                "description": "Co-founder of Tinder, revolutionizing the dating app industry with a swipe-based interface.",
+                "tasks": [
+                    "Develop a native Android app using Kotlin and Jetpack Compose.",
+                    "Implement Room database for local storage.",
+                    "Use Retrofit for networking and API calls.",
+                    "Integrate Firebase for authentication and analytics.",
+                    "Implement background tasks using WorkManager.",
+                    "Optimize app performance and memory usage."
+                ]
+            }
+        ],
+        "native1": [
+            {
+                "name": "Dong Nguyen",
+                "avatar": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1oFaVh.img",
+                "description": "Vietnamese developer behind the viral game 'Flappy Bird,' which became a cultural phenomenon in mobile gaming.",
+                "tasks": [
+                    "Build a native iOS app using Swift and SwiftUI.",
+                    "Implement Core Data for local data persistence.",
+                    "Utilize Combine framework for reactive programming.",
+                    "Integrate Apple's ARKit for augmented reality features.",
+                    "Implement in-app purchases and subscriptions.",
+                    "Deploy the app using TestFlight for beta testing."
+                ]
+            },
+            {
+                "name": "Jake Wharton",
+                "avatar": "https://avatars.mds.yandex.net/i?id=5f7d2d663cb9a343800e12befadf35da_l-3111739-images-thumbs&n=13",
+                "description": "Android developer and contributor to numerous open-source Android libraries.",
+                "tasks": [
+                    "Develop a native Android app using Kotlin and Jetpack Compose.",
+                    "Implement Room database for local storage.",
+                    "Use Retrofit for networking and API calls.",
+                    "Integrate Firebase for authentication and analytics.",
+                    "Implement background tasks using WorkManager.",
+                    "Optimize app performance and memory usage."
+                ]
+            },
+            {
+                "name": "Sean Rad",
+                "avatar": "https://avatars.mds.yandex.net/i?id=1f3c757bd3c18d601a1e9196a66940ac_l-4081049-images-thumbs&n=13",
+                "description": "Co-founder of Tinder, revolutionizing the dating app industry with a swipe-based interface.",
+                "tasks": [
+                    "Develop a native Android app using Kotlin and Jetpack Compose.",
+                    "Implement Room database for local storage.",
+                    "Use Retrofit for networking and API calls.",
+                    "Integrate Firebase for authentication and analytics.",
+                    "Implement background tasks using WorkManager.",
+                    "Optimize app performance and memory usage."
+                ]
+            }
+        ]
+    },
+    "UXUIDesign": {
+        "designers1": [
+            {
+                "name": "Don Norman",
+                "avatar": "https://avatars.mds.yandex.net/i?id=da9887a63cdd8bf931c31168e986042b_l-6849173-images-thumbs&n=13",
+                "description": "Pioneer of user-centered design and author of 'The Design of Everyday Things'.",
+                "tasks": [
+                    "Conduct user research to identify pain points and needs.",
+                    "Develop user personas and journey maps.",
+                    "Create wireframes and interactive prototypes.",
+                    "Perform usability testing and iterate designs accordingly.",
+                    "Collaborate with developers to ensure design feasibility.",
+                    "Advocate for accessible and inclusive design practices."
+                ]
+            },
+            {
+                "name": "Julie Zhuo",
+                "avatar": "https://image.cnbcfm.com/api/v1/image/105841419-makeit_20190403_bajuelos_julie_zhuo_favorite_interview_question_mezz.jpg?v=1554826293&amp;w=1920&amp;h=1080",
+                "description": "Former VP of Product Design at Facebook and author of 'The Making of a Manager'.",
+                "tasks": [
+                    "Lead design teams to deliver cohesive user experiences.",
+                    "Establish design systems and guidelines.",
+                    "Mentor junior designers and foster a collaborative environment.",
+                    "Align design goals with business objectives.",
+                    "Present design strategies to stakeholders.",
+                    "Stay updated with industry trends and best practices."
+                ]
+            },
+            {
+                "name": "Jake Wharton",
+                "avatar": "https://avatars.mds.yandex.net/i?id=5f7d2d663cb9a343800e12befadf35da_l-3111739-images-thumbs&n=13",
+                "description": "Android developer and contributor to numerous open-source Android libraries.",
+                "tasks": [
+                    "Develop a native Android app using Kotlin and Jetpack Compose.",
+                    "Implement Room database for local storage.",
+                    "Use Retrofit for networking and API calls.",
+                    "Integrate Firebase for authentication and analytics.",
+                    "Implement background tasks using WorkManager.",
+                    "Optimize app performance and memory usage."
+                ]
+            }
+        ],
+        "designers": [
+            {
+                "name": "Don Norman",
+                "avatar": "https://avatars.mds.yandex.net/i?id=da9887a63cdd8bf931c31168e986042b_l-6849173-images-thumbs&n=13",
+                "description": "Pioneer of user-centered design and author of 'The Design of Everyday Things'.",
+                "tasks": [
+                    "Conduct user research to identify pain points and needs.",
+                    "Develop user personas and journey maps.",
+                    "Create wireframes and interactive prototypes.",
+                    "Perform usability testing and iterate designs accordingly.",
+                    "Collaborate with developers to ensure design feasibility.",
+                    "Advocate for accessible and inclusive design practices."
+                ]
+            },
+            {
+                "name": "Julie Zhuo",
+                "avatar": "https://image.cnbcfm.com/api/v1/image/105841419-makeit_20190403_bajuelos_julie_zhuo_favorite_interview_question_mezz.jpg?v=1554826293&amp;w=1920&amp;h=1080",
+                "description": "Former VP of Product Design at Facebook and author of 'The Making of a Manager'.",
+                "tasks": [
+                    "Lead design teams to deliver cohesive user experiences.",
+                    "Establish design systems and guidelines.",
+                    "Mentor junior designers and foster a collaborative environment.",
+                    "Align design goals with business objectives.",
+                    "Present design strategies to stakeholders.",
+                    "Stay updated with industry trends and best practices."
+                ]
+            },
+            {
+                "name": "Jake Wharton",
+                "avatar": "https://avatars.mds.yandex.net/i?id=5f7d2d663cb9a343800e12befadf35da_l-3111739-images-thumbs&n=13",
+                "description": "Android developer and contributor to numerous open-source Android libraries.",
+                "tasks": [
+                    "Develop a native Android app using Kotlin and Jetpack Compose.",
+                    "Implement Room database for local storage.",
+                    "Use Retrofit for networking and API calls.",
+                    "Integrate Firebase for authentication and analytics.",
+                    "Implement background tasks using WorkManager.",
+                    "Optimize app performance and memory usage."
+                ]
+            }
+        ],
+        "designers2": [
+            {
+                "name": "Don Norman",
+                "avatar": "https://avatars.mds.yandex.net/i?id=da9887a63cdd8bf931c31168e986042b_l-6849173-images-thumbs&n=13",
+                "description": "Pioneer of user-centered design and author of 'The Design of Everyday Things'.",
+                "tasks": [
+                    "Conduct user research to identify pain points and needs.",
+                    "Develop user personas and journey maps.",
+                    "Create wireframes and interactive prototypes.",
+                    "Perform usability testing and iterate designs accordingly.",
+                    "Collaborate with developers to ensure design feasibility.",
+                    "Advocate for accessible and inclusive design practices."
+                ]
+            },
+            {
+                "name": "Julie Zhuo",
+                "avatar": "https://image.cnbcfm.com/api/v1/image/105841419-makeit_20190403_bajuelos_julie_zhuo_favorite_interview_question_mezz.jpg?v=1554826293&amp;w=1920&amp;h=1080",
+                "description": "Former VP of Product Design at Facebook and author of 'The Making of a Manager'.",
+                "tasks": [
+                    "Lead design teams to deliver cohesive user experiences.",
+                    "Establish design systems and guidelines.",
+                    "Mentor junior designers and foster a collaborative environment.",
+                    "Align design goals with business objectives.",
+                    "Present design strategies to stakeholders.",
+                    "Stay updated with industry trends and best practices."
+                ]
+            },
+            {
+                "name": "Jake Wharton",
+                "avatar": "https://avatars.mds.yandex.net/i?id=5f7d2d663cb9a343800e12befadf35da_l-3111739-images-thumbs&n=13",
+                "description": "Android developer and contributor to numerous open-source Android libraries.",
+                "tasks": [
+                    "Develop a native Android app using Kotlin and Jetpack Compose.",
+                    "Implement Room database for local storage.",
+                    "Use Retrofit for networking and API calls.",
+                    "Integrate Firebase for authentication and analytics.",
+                    "Implement background tasks using WorkManager.",
+                    "Optimize app performance and memory usage."
+                ]
+            }
+        ]
+    },
+    "graphicDesign": {
+        "designers3": [
+            {
+                "name": "Paula Scher",
+                "avatar": "https://i.ytimg.com/vi/lZXHEQUy1Yk/maxresdefault.jpg",
+                "description": "Renowned graphic designer known for her work in branding and typography.",
+                "tasks": [
+                    "Design brand identities and logos.",
+                    "Develop visual systems for marketing campaigns.",
+                    "Create typography-driven poster designs.",
+                    "Collaborate with clients to understand their vision.",
+                    "Produce print-ready materials for various mediums.",
+                    "Experiment with color theory and composition."
+                ]
+            },
+            {
+                "name": "David Carson",
+                "avatar": "https://avatars.mds.yandex.net/i?id=8604408006212e125cdaebe29f3732dd_l-10702304-images-thumbs&n=13",
+                "description": "Innovative graphic designer known for his unconventional and experimental style.",
+                "tasks": [
+                    "Design magazine layouts with expressive typography.",
+                    "Create album covers and promotional materials for artists.",
+                    "Push the boundaries of traditional design norms.",
+                    "Incorporate photography and hand-drawn elements.",
+                    "Develop visual narratives that evoke emotion.",
+                    "Conduct workshops on creative design processes."
+                ]
+            },
+            {
+                "name": "Jake Wharton",
+                "avatar": "https://avatars.mds.yandex.net/i?id=5f7d2d663cb9a343800e12befadf35da_l-3111739-images-thumbs&n=13",
+                "description": "Android developer and contributor to numerous open-source Android libraries.",
+                "tasks": [
+                    "Develop a native Android app using Kotlin and Jetpack Compose.",
+                    "Implement Room database for local storage.",
+                    "Use Retrofit for networking and API calls.",
+                    "Integrate Firebase for authentication and analytics.",
+                    "Implement background tasks using WorkManager.",
+                    "Optimize app performance and memory usage."
+                ]
+            }
+        ],
+        "designers4": [
+            {
+                "name": "Paula Scher",
+                "avatar": "https://i.ytimg.com/vi/lZXHEQUy1Yk/maxresdefault.jpg",
+                "description": "Renowned graphic designer known for her work in branding and typography.",
+                "tasks": [
+                    "Design brand identities and logos.",
+                    "Develop visual systems for marketing campaigns.",
+                    "Create typography-driven poster designs.",
+                    "Collaborate with clients to understand their vision.",
+                    "Produce print-ready materials for various mediums.",
+                    "Experiment with color theory and composition."
+                ]
+            },
+            {
+                "name": "David Carson",
+                "avatar": "https://avatars.mds.yandex.net/i?id=8604408006212e125cdaebe29f3732dd_l-10702304-images-thumbs&n=13",
+                "description": "Innovative graphic designer known for his unconventional and experimental style.",
+                "tasks": [
+                    "Design magazine layouts with expressive typography.",
+                    "Create album covers and promotional materials for artists.",
+                    "Push the boundaries of traditional design norms.",
+                    "Incorporate photography and hand-drawn elements.",
+                    "Develop visual narratives that evoke emotion.",
+                    "Conduct workshops on creative design processes."
+                ]
+            },
+            {
+                "name": "Jake Wharton",
+                "avatar": "https://avatars.mds.yandex.net/i?id=5f7d2d663cb9a343800e12befadf35da_l-3111739-images-thumbs&n=13",
+                "description": "Android developer and contributor to numerous open-source Android libraries.",
+                "tasks": [
+                    "Develop a native Android app using Kotlin and Jetpack Compose.",
+                    "Implement Room database for local storage.",
+                    "Use Retrofit for networking and API calls.",
+                    "Integrate Firebase for authentication and analytics.",
+                    "Implement background tasks using WorkManager.",
+                    "Optimize app performance and memory usage."
+                ]
+            }
+        ],
+        "designers5": [
+            {
+                "name": "Paula Scher",
+                "avatar": "https://i.ytimg.com/vi/lZXHEQUy1Yk/maxresdefault.jpg",
+                "description": "Renowned graphic designer known for her work in branding and typography.",
+                "tasks": [
+                    "Design brand identities and logos.",
+                    "Develop visual systems for marketing campaigns.",
+                    "Create typography-driven poster designs.",
+                    "Collaborate with clients to understand their vision.",
+                    "Produce print-ready materials for various mediums.",
+                    "Experiment with color theory and composition."
+                ]
+            },
+            {
+                "name": "David Carson",
+                "avatar": "https://avatars.mds.yandex.net/i?id=8604408006212e125cdaebe29f3732dd_l-10702304-images-thumbs&n=13",
+                "description": "Innovative graphic designer known for his unconventional and experimental style.",
+                "tasks": [
+                    "Design magazine layouts with expressive typography.",
+                    "Create album covers and promotional materials for artists.",
+                    "Push the boundaries of traditional design norms.",
+                    "Incorporate photography and hand-drawn elements.",
+                    "Develop visual narratives that evoke emotion.",
+                    "Conduct workshops on creative design processes."
+                ]
+            },
+            {
+                "name": "Jake Wharton",
+                "avatar": "https://avatars.mds.yandex.net/i?id=5f7d2d663cb9a343800e12befadf35da_l-3111739-images-thumbs&n=13",
+                "description": "Android developer and contributor to numerous open-source Android libraries.",
+                "tasks": [
+                    "Develop a native Android app using Kotlin and Jetpack Compose.",
+                    "Implement Room database for local storage.",
+                    "Use Retrofit for networking and API calls.",
+                    "Integrate Firebase for authentication and analytics.",
+                    "Implement background tasks using WorkManager.",
+                    "Optimize app performance and memory usage."
+                ]
+            }
+        ]
+    }
+}

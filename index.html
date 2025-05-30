@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMentor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">My<span>Mentor</span></h2>
+        <nav class="navigation">
+            <button class="home">Home</button>
+            <button class="tasks">Tasks</button>
+            <button class="resources">Helpful Resources</button>
+        </nav>
+        <nav class="navigation2">
+            <button class="home">Home</button>
+            <button class="tasks">Tasks</button>
+            <button class="resources">Helpful Resources</button>
+        </nav>
+        <div class="burger">
+            |||
+        </div>
+    </header>
+
+    <section class="intro">
+        <h1>Welcome to MyMentor</h1>
+        <p><a href="#loginSection">Connect</a> with top mentors in tech and boost your skills through guided tasks and
+            helpful
+            resources.</p>
+    </section>
+
+    <div class="row4">
+        <div class="column1">
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <span class="title"></span>
+                    </div>
+                    <div class="back">
+                        <img class="background" src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column1">
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <span class="title"></span>
+                    </div>
+                    <div class="back">
+                        <img class="background" src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column1">
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <span class="title"></span>
+                    </div>
+                    <div class="back">
+                        <img class="background" src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column1">
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <span class="title"></span>
+                    </div>
+                    <div class="back">
+                        <img class="background" src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column1">
+            <div class="container">
+                <div class="card">
+                    <div class="front">
+                        <span class="title"></span>
+                    </div>
+                    <div class="back">
+                        <img class="background" src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main" id="loginSection">
+        <span>Let me give and take some information</span>
+        <div class="aboutUs">
+            <h3>About MyMentor</h3>
+            <p><strong>MyMentor</strong> is your personal guide on the path to success in the tech industry. We connect
+                ambitious learners with top-tier mentors who provide hands-on tasks, real-world advice, and valuable
+                insights to help you master your field.</p>
+
+            <p>We believe that learning should be active, inspiring, and directly connected to your future career.
+                That’s why our platform offers:</p>
+            <ul>
+                <li><strong>Guided Learning Tasks</strong> – Practice skills that matter with mentor-designed
+                    assignments.</li>
+                <li><strong>Helpful Resources</strong> – Access curated materials tailored to your major and goals.</li>
+                <li><strong>Progress Tracking</strong> – Monitor your growth, celebrate milestones, and stay focused.
+                </li>
+            </ul>
+
+            <p>Whether you're diving into software development, UI/UX design, cybersecurity, or AI,
+                <strong>MyMentor</strong> gives you the structure and support you need to grow faster and smarter.
+            </p>
+
+            <p>Start strong. Stay motivated. Learn with purpose.</p>
+        </div>
+
+        <div class="form">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="nameInput">
+            <label for="major">Choose your Major</label>
+            <input type="text" id="major" class="majorInput">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="emailInput">
+            <button type="button" class="btnEl">Submit</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h2 class="logo">My<span>Mentor</span></h2>
+                <p>Empowering future tech leaders through guided mentorship and real-world tasks.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tasks.html">Tasks</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:support@mymentor.com">support@mymentor.com</a></p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 MyMentor. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        const navigation2 = document.querySelector('.navigation2')
+        const burger = document.querySelector('.burger')
+        const home = document.querySelectorAll('.home')
+        const tasks = document.querySelectorAll('.tasks')
+        const resources = document.querySelectorAll('.resources')
+
+        burger.addEventListener('click', function () {
+            navigation2.classList.toggle('show')
+        })
+
+        home.forEach(homePage => {
+            homePage.addEventListener('click', function () {
+                window.location.href = 'index.html'
+            })
+        });
+        tasks.forEach(taskPage => {
+            taskPage.addEventListener('click', function (event) {
+                const nameInput = document.querySelector('.nameInput').value.trim();
+                const majorInput = document.querySelector('.majorInput').value.trim();
+                const emailInput = document.querySelector('.emailInput').value.trim();
+                const loginSection = document.getElementById('loginSection');
+
+                if (nameInput === '' || majorInput === '' || emailInput === '') {
+                    loginSection.scrollIntoView({ behavior: 'smooth' });
+                } else {
+                    window.location.href = 'tasks.html';
+                }
+                // window.location.href = 'tasks.html';
+            });
+        });
+        resources.forEach(resPage => {
+            resPage.addEventListener('click', function () {
+                window.location.href = 'resources.html'
+            })
+        });
+
+
+        const btnEl = document.querySelector('.btnEl')
+        btnEl.addEventListener('click', function () {
+            const nameInput = document.querySelector('.nameInput').value
+            const majorInput = document.querySelector('.majorInput').value
+            const emailInput = document.querySelector('.emailInput').value
+
+            if (!(nameInput === '')) {
+                localStorage.setItem('userName', nameInput)
+            } else {
+                alert`Enter your Name`
+            }
+            if (!(majorInput === '')) {
+                localStorage.setItem('major', majorInput)
+            } else {
+                alert`Enter your Name`
+            }
+            if (!(emailInput === '')) {
+                localStorage.setItem('userEmail', emailInput)
+            } else {
+                alert`Enter your Name`
+            }
+            window.location.href = 'tasks.html'
+        })
+
+        async function getData() {
+            const promise = await fetch('data.json');
+            const response = await promise.json();
+            const homePage = response.homePage;
+            const title = document.querySelectorAll('.title')
+            const background = document.querySelectorAll('.background')
+
+            for (let i = 0; i < title.length; i++) {
+                title[i].textContent = homePage[i].title;
+                background[i].src = homePage[i].backgroundImage;
+            }
+        }
+
+        getData()
+    </script>
+</body>
+
+</html>

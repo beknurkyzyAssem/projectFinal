@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMentor</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #benefit {
+            background-color: #222;
+            color: #fff;
+            padding: 60px 100px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        #benefit h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 40px;
+            color: #ffd775;
+            text-align: center;
+        }
+
+        .saving {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #333;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        #input-el {
+            width: 100%;
+            padding: 12px 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ffd775;
+            background-color: #444;
+            color: #fff;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        #input-el:focus {
+            border-color: #fff;
+        }
+
+        .btns {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btns button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            font-family: 'Inter', sans-serif;
+        }
+
+        #input-btn {
+            background-color: #ffd775;
+            color: #222;
+        }
+
+        #delete-btn,
+        #delete-selected-btn {
+            background-color: #444;
+            color: #ffd775;
+            border: 1px solid #ffd775;
+        }
+
+        #ul-el {
+            list-style-type: none;
+        }
+
+        #ul-el li {
+            background-color: #444;
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.3s ease;
+        }
+
+        #ul-el li a {
+            color: #ffd775;
+            text-decoration: none;
+            word-break: break-all;
+            margin-right: 15px;
+        }
+
+        #ul-el li a:hover {
+            text-decoration: underline;
+        }
+
+        #ul-el li input[type="checkbox"] {
+            cursor: pointer;
+            accent-color: #ffd775;
+        }
+
+        @media screen and (max-width: 770px) {
+            #benefit {
+                padding: 30px 20px;
+            }
+
+            #benefit h2 {
+                font-size: 2rem;
+            }
+
+            .btns {
+                flex-direction: column;
+            }
+
+            .btns button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">My<span>Mentor</span></h2>
+        <nav class="navigation">
+            <button class="home">Home</button>
+            <button class="tasks">Tasks</button>
+            <button class="resources">Helpful Resources</button>
+        </nav>
+        <nav class="navigation2">
+            <button class="home">Home</button>
+            <button class="tasks">Tasks</button>
+            <button class="resources">Helpful Resources</button>
+        </nav>
+        <div class="burger">
+            |||
+        </div>
+    </header>
+    <section class="intro" style="border-bottom: 2px solid #ffd775;">
+        <h1>Resources</h1>
+        <p>Discover valuable learning materials curated by our mentors to accelerate your growth.
+            Save helpful links, tutorials, and references here for easy access throughout your journey.
+            Bookmark resources that inspire you and build your personal knowledge library.</p>
+    </section>
+    <section id="benefit">
+        <h2>Save what you need</h2>
+        <div class="saving">
+            <input type="text" id="input-el">
+            <div class="btns">
+                <button id="input-btn">SAVE INPUT</button>
+                <button id="delete-btn">DELETE ALL</button>
+                <button id="delete-selected-btn">DELETE SELECTED</button>
+            </div>
+            <ul id="ul-el"></ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h2 class="logo">My<span>Mentor</span></h2>
+                <p>Empowering future tech leaders through guided mentorship and real-world tasks.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tasks.html">Tasks</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:support@mymentor.com">support@mymentor.com</a></p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const navigation2 = document.querySelector('.navigation2')
+        const burger = document.querySelector('.burger')
+        const home = document.querySelectorAll('.home')
+        const tasks = document.querySelectorAll('.tasks')
+        const resources = document.querySelectorAll('.resources')
+
+        burger.addEventListener('click', function () {
+            navigation2.classList.toggle('show')
+        })
+
+        home.forEach(homePage => {
+            homePage.addEventListener('click', function () {
+                window.location.href = 'index.html'
+            })
+        });
+        tasks.forEach(taskPage => {
+            taskPage.addEventListener('click', function () {
+                window.location.href = 'tasks.html'
+            })
+        });
+        resources.forEach(resPage => {
+            resPage.addEventListener('click', function () {
+                window.location.href = 'resources.html'
+            })
+        });
+        const benefit = document.getElementById('benefit');
+        const inputEl = document.getElementById("input-el");
+        const inputBtn = document.getElementById("input-btn");
+        const ulEl = document.getElementById("ul-el");
+        const deleteBtn = document.getElementById("delete-btn");
+        const deleteSelectedBtn = document.getElementById("delete-selected-btn");
+        let myLeads = [];
+        const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
+
+        if (leadsFromLocalStorage) {
+            myLeads = leadsFromLocalStorage;
+            renderLeads();
+        }
+
+        inputBtn.addEventListener("click", function () {
+            if (inputEl.value.trim() === "") return;
+            myLeads.push(inputEl.value.trim());
+            inputEl.value = "";
+            localStorage.setItem("myLeads", JSON.stringify(myLeads));
+            renderLeads();
+        });
+
+        deleteBtn.addEventListener("dblclick", function () {
+            localStorage.removeItem("myLeads");
+            myLeads = [];
+            renderLeads();
+        });
+
+        deleteSelectedBtn.addEventListener("click", function () {
+            const checkboxes = ulEl.querySelectorAll("input[type='checkbox']");
+            const updatedLeads = [];
+
+            for (let i = 0; i < checkboxes.length; i++) {
+                if (!checkboxes[i].checked) {
+                    updatedLeads.push(myLeads[i]);
+                }
+            }
+
+            myLeads = updatedLeads;
+            localStorage.setItem("myLeads", JSON.stringify(myLeads));
+            renderLeads();
+        });
+
+        function renderLeads() {
+            let listItems = "";
+            for (let i = 0; i < myLeads.length; i++) {
+                listItems += `
+            <li>
+                <label>
+                    <input type="checkbox">
+                    <a target="_blank" href="${myLeads[i]}">
+                        ${myLeads[i]}
+                    </a>
+                </label>
+            </li>
+        `;
+            }
+            ulEl.innerHTML = listItems;
+        }
+
+    </script>
+</body>
+
+</html>

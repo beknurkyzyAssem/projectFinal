@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMentor</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .intro {
+            border-bottom: 2px solid black;
+        }
+
+        .main {
+            padding: 20px 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: start;
+            text-align: start;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: start;
+            align-items: start;
+            text-align: start;
+        }
+
+        .section .images {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .section .descMentor {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .chooseBtn {
+                width: 200px;
+                height: 30px;
+                background-color: #ffd775;
+                font-weight: bold;
+                border: none;
+                outline: none;
+                cursor: pointer;
+            }
+
+            .chooseBtn:hover {
+                color: #ffd775;
+                background-color: black;
+            }
+        }
+
+        .section .images img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 20%;
+            cursor: pointer;
+        }
+
+        @media screen and(max-width:770px) {
+
+            body .main .section .images {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">My<span>Mentor</span></h2>
+        <nav class="navigation">
+            <button class="home">Home</button>
+            <button class="tasks">Tasks</button>
+            <button class="resources">Helpful Resources</button>
+        </nav>
+        <nav class="navigation2">
+            <button class="home">Home</button>
+            <button class="tasks">Tasks</button>
+            <button class="resources">Helpful Resources</button>
+        </nav>
+        <div class="burger">
+            |||
+        </div>
+    </header>
+
+    <section class="intro">
+        <h1>Good Luck With Your Tasks!</h1>
+        <p>Wishing you continued success in your work.</p>
+    </section>
+    <div class="main">
+        <div class="section">
+            <h2>The Best Mentors Ever!</h2>
+            <div class="images">
+                <img src="" class="avatar" alt="">
+                <img src="" class="avatar" alt="">
+                <img src="" class="avatar" alt="">
+            </div>
+            <p class="descMentor"><span class="mentorName"></span></p>
+        </div>
+        <div class="section">
+            <div class="images">
+                <img src="" class="avatar" alt="">
+                <img src="" class="avatar" alt="">
+                <img src="" class="avatar" alt="">
+            </div>
+            <p class="descMentor"><span class="mentorName"></span></p>
+        </div>
+        <div class="section">
+            <div class="images">
+                <img src="" class="avatar" alt="">
+                <img src="" class="avatar" alt="">
+                <img src="" class="avatar" alt="">
+            </div>
+            <p class="descMentor"><span class="mentorName"></span></p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h2 class="logo">My<span>Mentor</span></h2>
+                <p>Empowering future tech leaders through guided mentorship and real-world tasks.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tasks.html">Tasks</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:support@mymentor.com">support@mymentor.com</a></p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 MyMentor. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const navigation2 = document.querySelector('.navigation2')
+        const burger = document.querySelector('.burger')
+        const home = document.querySelectorAll('.home')
+        const tasks = document.querySelectorAll('.tasks')
+        const resources = document.querySelectorAll('.resources')
+
+        burger.addEventListener('click', function () {
+            navigation2.classList.toggle('show')
+        })
+
+        home.forEach(homePage => {
+            homePage.addEventListener('click', function () {
+                window.location.href = 'index.html'
+            })
+        });
+        tasks.forEach(taskPage => {
+            taskPage.addEventListener('click', function () {
+                window.location.href = 'tasks.html'
+            })
+        });
+        resources.forEach(resPage => {
+            resPage.addEventListener('click', function () {
+                window.location.href = 'resources.html'
+            })
+        });
+
+
+        async function getData() {
+            const promise = await fetch('data.json');
+            const response = await promise.json();
+
+            const webDevelopment = response.webDevelopment;
+            const mobileDevelopment = response.mobileDevelopment;
+            const UXUIDesign = response.UXUIDesign;
+            const graphicDesign = response.graphicDesign;
+
+            const section = document.querySelectorAll('.section');
+            const ourMajor = localStorage.getItem('major').toLowerCase();
+
+            let allStacks = [];
+
+            if (
+                ourMajor.includes('web') ||
+                ourMajor.includes('frontend') ||
+                ourMajor.includes('front-end') ||
+                ourMajor.includes('backend') ||
+                ourMajor.includes('back-end') ||
+                ourMajor.includes('full-stack') ||
+                ourMajor.includes('fullstack')
+            ) {
+                allStacks = [
+                    webDevelopment.frontEnd,
+                    webDevelopment.backEnd,
+                    webDevelopment.fullStack
+                ];
+            } else if (
+                ourMajor.includes('mobile') ||
+                ourMajor.includes('android') ||
+                ourMajor.includes('ios') ||
+                ourMajor.includes('kotlin') ||
+                ourMajor.includes('swift')
+            ) {
+                allStacks = [
+                    mobileDevelopment.crossPlatform,
+                    mobileDevelopment.native
+                ];
+            } else if (
+                ourMajor.includes('ux') ||
+                ourMajor.includes('ui') ||
+                ourMajor.includes('ux/ui') ||
+                ourMajor.includes('design')
+            ) {
+                allStacks = [UXUIDesign.designers];
+            } else if (
+                ourMajor.includes('graphic') ||
+                ourMajor.includes('branding') ||
+                ourMajor.includes('visual') ||
+                ourMajor.includes('illustration')
+            ) {
+                allStacks = [graphicDesign.designers];
+            } else {
+                console.warn('No matching major found.');
+                return;
+            }
+
+            for (let i = 0; i < section.length; i++) {
+                const avatars = section[i].querySelectorAll('.avatar');
+                const descMentor = section[i].querySelector('.descMentor');
+                const mentorName = section[i].querySelector('.mentorName');
+
+                for (let j = 0; j < avatars.length; j++) {
+                    // Avoid errors when data length doesn't match DOM elements
+                    if (!allStacks[i] || !allStacks[i][j]) continue;
+
+                    avatars[j].src = allStacks[i][j].avatar;
+
+                    avatars[j].addEventListener('click', function () {
+                        descMentor.innerHTML = `
+                    <span class="mentorName">${allStacks[i][j].name}</span>
+                    ${allStacks[i][j].description}
+                    <button class="chooseBtn">Choose Mentor</button>
+                `;
+                        const chooseBtn = descMentor.querySelector('.chooseBtn');
+                        chooseBtn.addEventListener('click', function () {
+                            const main = document.querySelector('.main');
+                            const savedName = localStorage.getItem('userName');
+                            const savedMajor = localStorage.getItem('major');
+                            localStorage.setItem('mentorName', allStacks[i][j].name);
+                            const tasksList = allStacks[i][j].tasks;
+
+                            main.innerHTML = '';
+                            let tasksHTML = '<h2>Your Tasks</h2><p>Good Luck!</p><div class="tasks" style="display: flex; flex-direction: column; gap: 10px;">';
+
+                            tasksList.forEach(task => {
+                                tasksHTML += `<div style="display: flex; flex-direction: row;"><input style="margin-right:3px;" type="checkbox"><p class="taskY">${task}</p></div>`;
+                            });
+
+                            tasksHTML += `</div><div><h3>Data About You ↓</h3><span>Name: ${savedName}</span><br><span>Major: ${savedMajor}</span><br><span>Mentor: ${allStacks[i][j].name}</span></div>`;
+                            main.innerHTML = tasksHTML;
+
+                            const inputCheckBoxes = main.querySelectorAll('input');
+                            const taskY = main.querySelectorAll('.taskY');
+
+                            for (let k = 0; k < inputCheckBoxes.length; k++) {
+                                inputCheckBoxes[k].addEventListener('change', function () {
+                                    taskY[k].style.textDecoration = inputCheckBoxes[k].checked ? 'line-through' : 'none';
+                                });
+                            }
+                        });
+                    });
+
+                    avatars[j].addEventListener('dblclick', function () {
+                        descMentor.innerHTML = '';
+                    });
+                }
+            }
+        }
+        getData()
+    </script>
+</body>
+
+</html>
