@@ -64,10 +64,95 @@
             cursor: pointer;
         }
 
+        /* === Enhanced Tasks Section Styling === */
+        .main .tasks-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #333;
+            border-radius: 15px;
+            border: 2px solid #ffd775;
+        }
+
+        .main .tasks-container h2 {
+            font-size: 2.2rem;
+            color: #ffd775;
+            margin-bottom: 15px;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ffd775;
+        }
+
+        .main .tasks {
+            background-color: #444;
+            border: 2px solid #ffd775;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+
+        .main .tasks div {
+            display: flex;
+            align-items: center;
+            background-color: #555;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .main .tasks div:last-child {
+            margin-bottom: 0;
+        }
+
+        .main .tasks div:hover {
+            transform: translateX(5px);
+        }
+
+        .main .user-info {
+            background-color: #444;
+            border: 2px solid #ffd775;
+            padding: 25px;
+            border-radius: 12px;
+            color: #fff;
+        }
+
+        .main .user-info h3 {
+            font-size: 1.4rem;
+            color: #ffd775;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #ffd775;
+        }
+
+        .main .user-info span {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .main .user-info span:last-child {
+            margin-bottom: 0;
+        }
+
         @media screen and(max-width:770px) {
+            body .main {
+                padding: 20px;
+            }
 
             body .main .section .images {
                 flex-direction: column;
+            }
+
+            .main .tasks-container {
+                padding: 20px;
+            }
+
+            .main .tasks,
+            .main .user-info {
+                padding: 15px;
             }
         }
     </style>
@@ -215,7 +300,8 @@
             ) {
                 allStacks = [
                     mobileDevelopment.crossPlatform,
-                    mobileDevelopment.native
+                    mobileDevelopment.native,
+                    mobileDevelopment.native1
                 ];
             } else if (
                 ourMajor.includes('ux') ||
@@ -223,14 +309,22 @@
                 ourMajor.includes('ux/ui') ||
                 ourMajor.includes('design')
             ) {
-                allStacks = [UXUIDesign.designers];
+                allStacks = [
+                    UXUIDesign.designers,
+                    UXUIDesign.designers1,
+                    UXUIDesign.designers2
+                ];
             } else if (
                 ourMajor.includes('graphic') ||
                 ourMajor.includes('branding') ||
                 ourMajor.includes('visual') ||
                 ourMajor.includes('illustration')
             ) {
-                allStacks = [graphicDesign.designers];
+                allStacks = [
+                    graphicDesign.designers4,
+                    graphicDesign.designers3,
+                    graphicDesign.designers5
+                ];
             } else {
                 console.warn('No matching major found.');
                 return;
@@ -242,7 +336,6 @@
                 const mentorName = section[i].querySelector('.mentorName');
 
                 for (let j = 0; j < avatars.length; j++) {
-                    // Avoid errors when data length doesn't match DOM elements
                     if (!allStacks[i] || !allStacks[i][j]) continue;
 
                     avatars[j].src = allStacks[i][j].avatar;
@@ -262,6 +355,7 @@
                             const tasksList = allStacks[i][j].tasks;
 
                             main.innerHTML = '';
+
                             let tasksHTML = '<h2>Your Tasks</h2><p>Good Luck!</p><div class="tasks" style="display: flex; flex-direction: column; gap: 10px;">';
 
                             tasksList.forEach(task => {

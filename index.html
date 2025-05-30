@@ -129,6 +129,7 @@
             <label for="email">Email</label>
             <input type="email" id="email" class="emailInput">
             <button type="button" class="btnEl">Submit</button>
+            <button type="button" class="clearBtn">CLear All</button>
         </div>
     </div>
 
@@ -237,6 +238,30 @@
         }
 
         getData()
+
+        const clearBtn = document.querySelector('.clearBtn')
+        clearBtn.addEventListener('click', function () {
+            localStorage.removeItem('userName');
+            localStorage.removeItem('major');
+            localStorage.removeItem('userEmail');
+            localStorage.removeItem('mentorName');
+
+            document.querySelector('.nameInput').value = '';
+            document.querySelector('.majorInput').value = '';
+            document.querySelector('.emailInput').value = '';
+
+        })
+
+        window.addEventListener('DOMContentLoaded', function () {
+            const savedName = localStorage.getItem('userName');
+            const savedMajor = localStorage.getItem('major');
+            const savedEmail = localStorage.getItem('userEmail');
+            const savedMentor = localStorage.getItem('mentorName');
+
+            if (savedName) document.querySelector('.nameInput').value = savedName;
+            if (savedMajor) document.querySelector('.majorInput').value = savedMajor;
+            if (savedEmail) document.querySelector('.emailInput').value = savedEmail;
+        });
     </script>
 </body>
 

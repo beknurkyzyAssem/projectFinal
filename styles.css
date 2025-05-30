@@ -465,7 +465,7 @@ header {
         display: flex;
     }
 
-    .main {
+    body .main {
         padding: 20px;
     }
 

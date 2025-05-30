@@ -208,7 +208,7 @@
             },
             {
                 "name": "Jake Wharton",
-                "avatar": "https://avatars.mds.yandex.net/i?id=5f7d2d663cb9a343800e12befadf35da_l-3111739-images-thumbs&n=13",
+                "avatar": "https://habrastorage.org/getpro/habr/upload_files/7fd/685/7f5/7fd6857f57f9e71f78f4d9b6955ca262.png",
                 "description": "Android developer and contributor to numerous open-source Android libraries.",
                 "tasks": [
                     "Develop a native Android app using Kotlin and Jetpack Compose.",
@@ -221,7 +221,7 @@
             },
             {
                 "name": "Sean Rad",
-                "avatar": "https://avatars.mds.yandex.net/i?id=1f3c757bd3c18d601a1e9196a66940ac_l-4081049-images-thumbs&n=13",
+                "avatar": "https://avatars.mds.yandex.net/i?id=80f9abbcab4c02bbdb1ebd8856f4ac5d9341be5a-12496730-images-thumbs&n=13",
                 "description": "Co-founder of Tinder, revolutionizing the dating app industry with a swipe-based interface.",
                 "tasks": [
                     "Develop a native Android app using Kotlin and Jetpack Compose.",
@@ -235,8 +235,8 @@
         ],
         "native1": [
             {
-                "name": "Dong Nguyen",
-                "avatar": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1oFaVh.img",
+                "name": "Igor and Marko Pusenjak",
+                "avatar": "https://avatars.mds.yandex.net/i?id=fdbc91f7252be2fe08b826b9361940a91ac536b4dffc4c4e-12532894-images-thumbs&n=13",
                 "description": "Vietnamese developer behind the viral game 'Flappy Bird,' which became a cultural phenomenon in mobile gaming.",
                 "tasks": [
                     "Build a native iOS app using Swift and SwiftUI.",
@@ -248,8 +248,8 @@
                 ]
             },
             {
-                "name": "Jake Wharton",
-                "avatar": "https://avatars.mds.yandex.net/i?id=5f7d2d663cb9a343800e12befadf35da_l-3111739-images-thumbs&n=13",
+                "name": "Dennis Crowley",
+                "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Dcrowley_headshot_sunset.jpg/640px-Dcrowley_headshot_sunset.jpg",
                 "description": "Android developer and contributor to numerous open-source Android libraries.",
                 "tasks": [
                     "Develop a native Android app using Kotlin and Jetpack Compose.",
@@ -261,8 +261,8 @@
                 ]
             },
             {
-                "name": "Sean Rad",
-                "avatar": "https://avatars.mds.yandex.net/i?id=1f3c757bd3c18d601a1e9196a66940ac_l-4081049-images-thumbs&n=13",
+                "name": "Marco Arment",
+                "avatar": "https://avatars.mds.yandex.net/i?id=20f37246e47f46782da8bb83b42ba3b1afb31fad-12533415-images-thumbs&n=13",
                 "description": "Co-founder of Tinder, revolutionizing the dating app industry with a swipe-based interface.",
                 "tasks": [
                     "Develop a native Android app using Kotlin and Jetpack Compose.",
@@ -319,9 +319,9 @@
         ],
         "designers": [
             {
-                "name": "Don Norman",
-                "avatar": "https://avatars.mds.yandex.net/i?id=da9887a63cdd8bf931c31168e986042b_l-6849173-images-thumbs&n=13",
-                "description": "Pioneer of user-centered design and author of 'The Design of Everyday Things'.",
+                "name": "Steve Krug",
+                "avatar": "https://avatars.mds.yandex.net/i?id=6b3846b2267f5cdd51bb7a7667c01508_l-5289342-images-thumbs&n=13",
+                "description": "Author of 'Don't Make Me Think,' a seminal book on web usability.",
                 "tasks": [
                     "Conduct user research to identify pain points and needs.",
                     "Develop user personas and journey maps.",
@@ -332,8 +332,8 @@
                 ]
             },
             {
-                "name": "Julie Zhuo",
-                "avatar": "https://image.cnbcfm.com/api/v1/image/105841419-makeit_20190403_bajuelos_julie_zhuo_favorite_interview_question_mezz.jpg?v=1554826293&amp;w=1920&amp;h=1080",
+                "name": "Aarron Walter",
+                "avatar": "https://avatars.mds.yandex.net/i?id=1bb4f3099913012be5bbeae1db891b2a66f2e244-4265706-images-thumbs&n=13",
                 "description": "Former VP of Product Design at Facebook and author of 'The Making of a Manager'.",
                 "tasks": [
                     "Lead design teams to deliver cohesive user experiences.",
@@ -345,8 +345,8 @@
                 ]
             },
             {
-                "name": "Jake Wharton",
-                "avatar": "https://avatars.mds.yandex.net/i?id=5f7d2d663cb9a343800e12befadf35da_l-3111739-images-thumbs&n=13",
+                "name": "Luke Wroblewski",
+                "avatar": "https://avatars.mds.yandex.net/i?id=a8c48a8e63ad813945b787d6830bb45121a9ab5c-9231706-images-thumbs&n=13",
                 "description": "Android developer and contributor to numerous open-source Android libraries.",
                 "tasks": [
                     "Develop a native Android app using Kotlin and Jetpack Compose.",
@@ -360,8 +360,8 @@
         ],
         "designers2": [
             {
-                "name": "Don Norman",
-                "avatar": "https://avatars.mds.yandex.net/i?id=da9887a63cdd8bf931c31168e986042b_l-6849173-images-thumbs&n=13",
+                "name": "Jared Spool",
+                "avatar": "https://avatars.mds.yandex.net/i?id=c0d48daaf76a55639babb61f92496039d9b95b17-4828150-images-thumbs&n=13",
                 "description": "Pioneer of user-centered design and author of 'The Design of Everyday Things'.",
                 "tasks": [
                     "Conduct user research to identify pain points and needs.",
@@ -386,8 +386,8 @@
                 ]
             },
             {
-                "name": "Jake Wharton",
-                "avatar": "https://avatars.mds.yandex.net/i?id=5f7d2d663cb9a343800e12befadf35da_l-3111739-images-thumbs&n=13",
+                "name": " Erika Hall",
+                "avatar": "https://avatars.mds.yandex.net/i?id=496085835bc5a2bfec4cfe3da3012a102f68ac729664762d-12475369-images-thumbs&n=13",
                 "description": "Android developer and contributor to numerous open-source Android libraries.",
                 "tasks": [
                     "Develop a native Android app using Kotlin and Jetpack Compose.",
@@ -403,8 +403,8 @@
     "graphicDesign": {
         "designers3": [
             {
-                "name": "Paula Scher",
-                "avatar": "https://i.ytimg.com/vi/lZXHEQUy1Yk/maxresdefault.jpg",
+                "name": "Jessica Walsh",
+                "avatar": "https://avatars.mds.yandex.net/i?id=57a4a935cd763dea692297ac6139ed566c3842d4-12385820-images-thumbs&n=13",
                 "description": "Renowned graphic designer known for her work in branding and typography.",
                 "tasks": [
                     "Design brand identities and logos.",
@@ -416,8 +416,8 @@
                 ]
             },
             {
-                "name": "David Carson",
-                "avatar": "https://avatars.mds.yandex.net/i?id=8604408006212e125cdaebe29f3732dd_l-10702304-images-thumbs&n=13",
+                "name": "Jon Contino",
+                "avatar": "https://avatars.mds.yandex.net/i?id=035b9cdc2ac5dee8c477a1cfdca9e0ab54e967dd-5229051-images-thumbs&n=13",
                 "description": "Innovative graphic designer known for his unconventional and experimental style.",
                 "tasks": [
                     "Design magazine layouts with expressive typography.",
@@ -429,9 +429,9 @@
                 ]
             },
             {
-                "name": "Jake Wharton",
-                "avatar": "https://avatars.mds.yandex.net/i?id=5f7d2d663cb9a343800e12befadf35da_l-3111739-images-thumbs&n=13",
-                "description": "Android developer and contributor to numerous open-source Android libraries.",
+                "name": "Timothy Goodman",
+                "avatar": "https://avatars.mds.yandex.net/i?id=b38f8e164f723bba90ae7c687877387d8a7198be-6946654-images-thumbs&n=13",
+                "description": "Known for his illustrative work and social commentary through design.",
                 "tasks": [
                     "Develop a native Android app using Kotlin and Jetpack Compose.",
                     "Implement Room database for local storage.",
@@ -444,8 +444,8 @@
         ],
         "designers4": [
             {
-                "name": "Paula Scher",
-                "avatar": "https://i.ytimg.com/vi/lZXHEQUy1Yk/maxresdefault.jpg",
+                "name": "Camille Anne Ferreol",
+                "avatar": "https://avatars.mds.yandex.net/i?id=dea905fb4240f178426e0f75f690d6374d8c113b-4591219-images-thumbs&n=13",
                 "description": "Renowned graphic designer known for her work in branding and typography.",
                 "tasks": [
                     "Design brand identities and logos.",
@@ -457,8 +457,8 @@
                 ]
             },
             {
-                "name": "David Carson",
-                "avatar": "https://avatars.mds.yandex.net/i?id=8604408006212e125cdaebe29f3732dd_l-10702304-images-thumbs&n=13",
+                "name": "Mike Perry",
+                "avatar": "https://avatars.mds.yandex.net/i?id=3573b2adf60f1c3ce975df5700538da0a11009f5-10933813-images-thumbs&n=13",
                 "description": "Innovative graphic designer known for his unconventional and experimental style.",
                 "tasks": [
                     "Design magazine layouts with expressive typography.",
@@ -470,8 +470,8 @@
                 ]
             },
             {
-                "name": "Jake Wharton",
-                "avatar": "https://avatars.mds.yandex.net/i?id=5f7d2d663cb9a343800e12befadf35da_l-3111739-images-thumbs&n=13",
+                "name": "David Carson",
+                "avatar": "https://avatars.mds.yandex.net/i?id=0818ce038f1c30d3b0ed0e11d57da2cf354940d7-5189723-images-thumbs&n=13",
                 "description": "Android developer and contributor to numerous open-source Android libraries.",
                 "tasks": [
                     "Develop a native Android app using Kotlin and Jetpack Compose.",
@@ -485,8 +485,8 @@
         ],
         "designers5": [
             {
-                "name": "Paula Scher",
-                "avatar": "https://i.ytimg.com/vi/lZXHEQUy1Yk/maxresdefault.jpg",
+                "name": "Chip Kidd",
+                "avatar": "https://avatars.mds.yandex.net/i?id=7be87b57ff5cd9fdac15154ed916fe5abf45ebab-7754220-images-thumbs&n=13",
                 "description": "Renowned graphic designer known for her work in branding and typography.",
                 "tasks": [
                     "Design brand identities and logos.",
@@ -498,8 +498,8 @@
                 ]
             },
             {
-                "name": "David Carson",
-                "avatar": "https://avatars.mds.yandex.net/i?id=8604408006212e125cdaebe29f3732dd_l-10702304-images-thumbs&n=13",
+                "name": "Massimo Vignelli",
+                "avatar": "https://avatars.mds.yandex.net/i?id=0fd2ca2869dbae0bf66d3f03662c47a1d9464b87-9144721-images-thumbs&n=13",
                 "description": "Innovative graphic designer known for his unconventional and experimental style.",
                 "tasks": [
                     "Design magazine layouts with expressive typography.",
@@ -511,8 +511,8 @@
                 ]
             },
             {
-                "name": "Jake Wharton",
-                "avatar": "https://avatars.mds.yandex.net/i?id=5f7d2d663cb9a343800e12befadf35da_l-3111739-images-thumbs&n=13",
+                "name": "Paula Scher",
+                "avatar": "https://i.ytimg.com/vi/lZXHEQUy1Yk/maxresdefault.jpg",
                 "description": "Android developer and contributor to numerous open-source Android libraries.",
                 "tasks": [
                     "Develop a native Android app using Kotlin and Jetpack Compose.",
